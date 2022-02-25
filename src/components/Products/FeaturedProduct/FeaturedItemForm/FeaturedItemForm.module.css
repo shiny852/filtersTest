@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  background-color: black;
+  padding: 10px;
+}
+
+.form button {
+  border: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.responsive-item {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .responsive-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .responsive-none {
+    display: none;
+  }
+}

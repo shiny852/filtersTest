@@ -1,0 +1,27 @@
+.button {
+  position: relative;
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+
+.icon {
+  width: 54px;
+}
+
+.badge {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  background-color: black;
+  font-size: 20px;
+  line-height: 21.76px;
+  font-weight: 700;
+  min-height: 20.57px;
+  min-width: 21px;
+  color: white;
+}

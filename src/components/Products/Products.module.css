@@ -1,0 +1,84 @@
+.products-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 65px 0;
+  padding-top: 68px;
+  border-top: 4px solid #e4e4e4;
+}
+
+.sort {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.products-topbar h3 {
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.topbar-heading {
+  display: flex;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.topbar-heading h3 {
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.topbar-heading span {
+  font-size: 30px;
+  font-weight: 400;
+  color: #9b9b9b;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-actions div {
+  margin-right: 20px;
+}
+
+.topbar-actions button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sort-span {
+  font-size: 22px;
+  color: #9b9b9b;
+}
+
+.sort-select {
+  background-color: transparent;
+  border: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+}
+
+.responsive-icon {
+  display: none;
+}
+
+.products-main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+@media (max-width: 700px) {
+  .products-main {
+    grid-template-columns: 1fr;
+  }
+  .responsive-icon {
+    display: block;
+  }
+}

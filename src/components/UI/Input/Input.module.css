@@ -1,0 +1,7 @@
+.input input {
+  height: 30px;
+  width: 50px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}

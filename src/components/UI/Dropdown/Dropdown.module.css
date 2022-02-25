@@ -1,0 +1,10 @@
+.dropdown {
+  position: fixed;
+  top: 120px;
+  right: 7%;
+  background-color: white;
+  border: 4px solid #e4e4e4;
+  padding: 30px 30px;
+  z-index: 40;
+  min-width: 450px;
+}

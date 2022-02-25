@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Archivo';
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  padding: 0 7%;
+}

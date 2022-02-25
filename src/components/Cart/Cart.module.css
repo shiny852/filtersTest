@@ -1,0 +1,58 @@
+.cart-items {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 20px 0;
+  max-height: 400px;
+  overflow-y: auto;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.close-icon button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.total {
+  font-size: 20px;
+  padding-top: 20px;
+  display: flex;
+}
+
+.total-label {
+  flex: 2;
+}
+
+.total-value {
+  flex: 1;
+}
+
+.button--alt,
+.order-button {
+  flex: 1;
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  border: 3px solid #000000;
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.button--alt {
+  margin-right: 4px;
+}
+.order-button {
+  margin-left: 4px;
+}
